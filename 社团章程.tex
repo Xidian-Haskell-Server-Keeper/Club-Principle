@@ -1,11 +1,11 @@
 \documentclass[UTF8]{ctexart}
 
-\usepackage{color,titlesec}
+\usepackage{color,titlesec,hyperref}
 
 \title{学生社团章程}
 \titleformat{\section}[runin]{\raggedright\bfseries}{第\chinese{section} 章}{1em}{}
-\titleformat{\subsection}[runin]{\raggedright\bfseries}{第\chinese{section} 条}{1em}{}
-\titleformat{\subsubsection}[runin]{\raggedright\bfseries}{\qquad\quad（\chinese{section} ）}{1em}{}
+\titleformat{\subsection}[runin]{\raggedright\bfseries}{第\chinese{subsection} 条}{1em}{}
+\titleformat{\subsubsection}[runin]{\raggedright\bfseries}{\qquad\quad（\chinese{subsubsection} ）}{1em}{} 
 
 
 
@@ -13,7 +13,40 @@
 
 \begin{document}
 \maketitle
+\newpage
 \section{总则}
-\subsection{社团名称}西安电子科技大学
+\subsection{社团名称}
+西安电子科技大学Hackage镜像站维护社团，并称可西电Haskell-Server维护社区
+\subsection{社团宗旨}
+坚决遵守宪法及相关法律和法规、校团委的规定，遵守社会道德风尚。为校内师生提供Hackage镜像服务 \footnote{镜像来自 
+\href{http://hackage.haskell.org}{hackage.haskell.org}}
+及其相关的Hoogle
+\footnote{Hoogle与 Hayoo 均为用于提供Haskell的公共Hackage中各类API使用方法的搜索服务。同Hackage一样，三者均在GitHub上开源。
+\href{http://hoogle.haskell.org}{Hoogle的网站}
+}
+与Hayoo
+\footnote{\href{http://hayoo.fh-wedel.de/}{Hayoo的网站}}
+搜索服务。推动校内Haskell
+\footnote{\href{http://www.haskell.org}{Haskell} 是一门函数式语言}
+的发展与普及，促进函数式编程在校内的普及。
+\subsection{社团职能}
+\subsubsection{}建立并维护Hackage镜像站，向校内师生提供标准\verb"Hackage 2"
+\footnote{即现在公共Hackage的版本。}
+服务；
+\subsubsection{}建立并维护Hoogle与Hayoo搜索站，向校内师生提供搜索服务。
+\subsubsection{}向校内师生提供Haskell的基本入门指导、GHC的安装帮助、cabal的安装使用帮助、创建Hackage包的入门指导等帮助；
+\subsubsection{}定期举行相关活动。
 
-\end{document}
+\section{组织机构与管理制度}
+\subsection{}组织形式为全体监督下的核心会负责制，并以“社区”为社团组织形式。
+\subsection{}社区负责者 \footnote{相当于社长} 一人，社区代表一人，各组设组长一名。
+\subsection{}核心会由社团技术骨干与各类负责人组成。
+\subsection{}社区负责人由社团全体从社团技术骨干\footnote{为主要人选。}与各类负责人中选举产生。
+\subsection{}核心会的主要职能包括：
+\subsubsection{}总结并向全体汇报这一时期的的社区各项总结
+\footnote{具体由一名核心会成员负责。}
+；
+\subsubsection{}组织与社团相关的活动；
+
+
+\end{document} 
